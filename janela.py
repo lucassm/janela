@@ -10,7 +10,8 @@ class Example(QtGui.QWidget):
 
     def initUI(self):
 
-        label = QtGui.QLabel('Hello World 3!', self)
+        label = QtGui.QLabel('Hello World 5!', self)
+        label_2 = QtGui.QLabel('Tomara que chegue logo a hora da pizza!', self)
 
         self.setGeometry(300, 300, 250, 150)
         self.setWindowTitle('Janela')
